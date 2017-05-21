@@ -30,7 +30,7 @@ MQ2, code to add the number of significant QTLs found for each position
 
 import logging
 
-from MQ2 import read_input_file, write_matrix
+from .MQ2 import read_input_file, write_matrix
 
 LOG = logging.getLogger('MQ2')
 

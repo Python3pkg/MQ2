@@ -30,8 +30,8 @@ MQ2 map chart generation from the data matrix.
 import re
 import logging
 
-from MQ2 import read_input_file, write_matrix
-from MQ2.qtl import QTL
+from .MQ2 import read_input_file, write_matrix
+from .MQ2.qtl import QTL
 
 
 LOG = logging.getLogger('MQ2')

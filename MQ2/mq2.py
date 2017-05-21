@@ -39,16 +39,16 @@ from straight.plugin import load
 sys.path.insert(0, os.path.join(os.path.dirname(
                 os.path.abspath(__file__)), '..'))
 
-from MQ2 import (__version__,
+from .MQ2 import (__version__,
                  set_tmp_folder,
                  extract_zip,
                  MQ2Exception,
                  read_input_file,
                  write_matrix)
-from MQ2.plugin_interface import PluginInterface
-from MQ2.add_marker_to_qtls import add_marker_to_qtls
-from MQ2.add_qtl_to_map import add_qtl_to_map
-from MQ2.mapchart import generate_map_chart_file, append_flanking_markers
+from .MQ2.plugin_interface import PluginInterface
+from .MQ2.add_marker_to_qtls import add_marker_to_qtls
+from .MQ2.add_qtl_to_map import add_qtl_to_map
+from .MQ2.mapchart import generate_map_chart_file, append_flanking_markers
 
 
 logging.basicConfig()
